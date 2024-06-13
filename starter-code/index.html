@@ -1,13 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Lab | Responsive Cloning | Product Hunt</title>
-  <link rel="stylesheet" href="styles.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  
+  <header>
+    <div class="superior-bar">
+      <div class="search-bar">
+        <img class="profile-logo" src="images/logo.png" alt="Profile Logo">
+        <input class="search-input" type="text" placeholder="Discover your next favorite thing...">
+        <div class="login-container">
+          <div class="login-item">...</div>
+          <div class="login-item">Login</div>
+        </div>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li class="nav-item-1 nav-item">Home</li>
+          <li class="nav-item-2 nav-item">Tech</li>
+          <li class="nav-item-3 nav-item">Games</li>
+          <li class="nav-item-4 nav-item">Podcasts</li>
+          <li class="nav-item-5 nav-item">Books</li>
+          <li class="nav-item-6 nav-item">Bots</li>
+          <li class="nav-item-7 nav-item">Developer Tools</li>
+          <li class="nav-item-8 nav-item">iMessage Apps</li>
+          <li class="nav-item-9 nav-item">iPhone</li>
+          <li class="nav-item-10 nav-item">Photography Tools</li>
+          <li class="nav-item-11 nav-item"><img src="images/arrow-prev.png" alt=""></li>
+          <li class="nav-item-12 nav-item"><img src="images/arrow-next.png" alt=""></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="content">
+      <div class="section-container">
+        <section class="section-1 section">
+          <div class="section-1-container">
+            <div class="logo">
+              <span class="icon">👋</span>
+              <span>Welcome to Product Hunt</span>
+            </div>
+            <div class="description">
+              Get the best new products in your inbox, daily.
+            </div>
+            <div class="subscribe">
+              <input type="email" placeholder="Your email">
+              <button>SUBSCRIBE</button>
+            </div>
+          </div>
+          <div class="close">
+            <span>&times;</span>
+          </div>
+        </section>
+
+        <section class="section-2 section">
+          <div class="popular-container">
+            <div class="header">
+              <span>Popular this week</span>
+              <span class="close">&times;</span>
+            </div>
+            <div class="item">
+              <img class="item-image" src="images/popular-this-week/app-1.png" alt="Duolingo Bots">
+              <div class="item-details">
+                <span class="item-title">Duolingo Bots</span>
+                <span class="item-description">AI-powered characters to teach language conversation</span>
+                <div class="item-stats">
+                  <span class="votes"><img class="mini-logo" src="images/votes.png" alt="">1460</span>
+                  <span class="comments"><img class="mini-logo" src="images/comments.png" alt="">49</span>
+                  <span class="platform">IPHONE</span>
+                  <span class="more">+2</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="item-image" src="images/popular-this-week/app-2.png" alt="Tribe 2.0">
+              <div class="item-details">
+                <span class="item-title">Tribe 2.0</span>
+                <span class="item-description">Introducing Augmented Messaging™</span>
+                <div class="item-stats">
+                  <span class="votes"><img class="mini-logo" src="images/votes.png" alt="">1465</span>
+                  <span class="comments"><img class="mini-logo" src="images/comments.png" alt="">188</span>
+                  <span class="platform">ANDROID</span>
+                  <span class="more">+4</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="item-image" src="images/popular-this-week/app-3.png" alt="Workplace by Facebook">
+              <div class="item-details">
+                <span class="item-title">Workplace by Facebook</span>
+                <span class="item-description">Connect everyone in your company and turn ideas into action</span>
+                <div class="item-stats">
+                  <span class="votes"><img class="mini-logo" src="images/votes.png" alt="">1003</span>
+                  <span class="comments"><img class="mini-logo" src="images/comments.png" alt="">80</span>
+                  <span class="platform">ANDROID</span>
+                  <span class="more">+2</span>
+                </div>
+              </div>
+            </div>
+            <div class="show-more"><img class="mini-logo" src="images/arrow-down.png" alt="">SHOW MORE</div>
+          </div>
+        </section>
+
+        <section class="section-3 section">
+          <div class="popular-container">
+            <div class="header">
+              <span>Today</span>
+              <div>
+                <span class="right-header">POPULAR</span>
+                <span>NEWEST</span>
+              </div>
+            </div>
+            <div class="item">
+              <img class="item-image" src="images/today/app-1.png" alt="Duolingo Bots">
+              <div class="item-details">
+                <span class="item-title">Sprayscape</span>
+                <span class="item-description">A perfectly imperfect VR-ish camera experimental, by Google</span>
+                <div class="item-stats">
+                  <span class="votes"><img class="mini-logo" src="images/votes.png" alt="">82</span>
+                  <span class="comments"><img class="mini-logo" src="images/comments.png" alt="">8</span>
+                  <span class="platform">ANDROID</span>
+                  <span class="more">+3</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="item-image" src="images/today/app-2.png" alt="Tribe 2.0">
+              <div class="item-details">
+                <span class="item-title">Ask Gary Vee</span>
+                <span class="item-description">The unofficial Gary Vee persona chatbot on Messenger!</span>
+                <div class="item-stats">
+                  <span class="votes"><img class="mini-logo" src="images/votes.png" alt="">21</span>
+                  <span class="comments"><img class="mini-logo" src="images/comments.png" alt="">9</span>
+                  <span class="platform">GET SHIT DONE</span>
+                  <span class="more">+1</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="item-image" src="images/today/app-3.png"" alt=" Workplace by Facebook">
+              <div class="item-details">
+                <span class="item-title">The Electron Wheel</span>
+                <span class="item-description">Trun your standard bicycle intro an electric bike.</span>
+                <div class="item-stats">
+                  <span class="votes"><img class="mini-logo" src="images/votes.png" alt="">23</span>
+                  <span class="comments"><img class="mini-logo" src="images/comments.png" alt="">2</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="item-image" src="images/today/app-4.png" alt="Workplace by Facebook">
+              <div class="item-details">
+                <span class="item-title">Lattice Reviews</span>
+                <span class="item-description">360 degree feedback and performance reviews</span>
+                <div class="item-stats">
+                  <span class="votes"><img class="mini-logo" src="images/votes.png" alt="">19</span>
+                  <span class="comments"><img class="mini-logo" src="images/comments.png" alt="">4</span>
+                </div>
+              </div>
+            </div>
+            <div class="show-more"><img class="mini-logo" src="images/arrow-down.png" alt="">SHOW MORE</div>
+          </div>
+        </section>
+        <section class="section-4 section">
+          <div class="container">
+            <div class="title-container">
+              <div class="title">Kittybot for Slack.</div>
+              <div class="close-btn">&times;</div>
+            </div>
+            <div class="description">A friendly feline that sends you cool new things.</div>
+            <button class="add-btn">
+              <span class="icon">#</span> ADD KITTYBOT TO SLACK
+            </button>
+          </div>
+        </section>
+        <section class="section-5 section">
+          <div class="container">
+            <div class="header">UPCOMING LIVE CHATS</div>
+            <div class="item-container">
+              <div class="chat-item">
+                <img class="item-image" src="images/chats/chat-1.png" alt="Adam Besvnick">
+                <div class="chat-details">
+                  <div>
+                    <span class="name">Adam Besvnick</span>
+                    <span>VC at Deep Fork Capital</span>
+                  </div>
+                  <div class="remind-btn">REMIND ME</div>
+                </div>
+              </div>
+              <div class="chat-item">
+                <img class="item-image" src="images/chats/chat-2.png" alt="Susan David">
+                <div class="chat-details">
+                  <div>
+                    <span class="name">Susan David</span>
+                    <span>Author of Emotionally Guilty</span>
+                  </div>
+                  <div class="remind-btn">REMIND ME</div>
+                </div>
+              </div>
+              <div class="chat-item">
+                <img class="item-image" src="images/chats/chat-3.png" alt="Avid Larizadeh Duggan">
+                <div class="chat-details">
+                  <div>
+                    <span class="name">Avid Larizadeh Duggan</span>
+                    <span>General Partner at GV</span>
+                  </div>
+                  <div class="remind-btn">REMIND ME</div>
+                </div>
+              </div>
+              <div class="chat-item">
+                <img class="item-image" src="images/chats/chat-4.png" alt="Katerina Markov Schneider">
+                <div class="chat-details">
+                  <div>
+                    <span class="name">Katerina Markov Schneider</span>
+                    <span>Founder and CEO of Ritual</span>
+                  </div>
+                  <div class="remind-btn">REMIND ME</div>
+                </div>
+              </div>
+              <div class="chat-item">
+                <img class="item-image" src="images/chats/chat-5.png" alt="Jocelyn Glei">
+                <div class="chat-details">
+                  <div>
+                    <span class="name">Jocelyn Glei</span>
+                    <span>Master of Productivity, founder and author...</span>
+                  </div>
+                  <div class="remind-btn">REMIND ME</div>
+                </div>
+              </div>
+            </div>
+            <div class="see-more">SEE MORE</div>
+          </div>
+        </section>
+        <section class="section-6 section">
+          <div class="tweet-container">
+            <div class="top">
+                <span><strong>Tweets</strong>liked by</span>
+                <span class="tweet">@ProductHuntLOVE</span>
+            </div>
+            <div class="bottom">
+              <div class="tweet-header">
+                <img src="images/chats/chat-6.png" alt="Profile Image">
+                <div class="user-info">
+                  <span class="username">Max Pelzner</span>
+                  <span>@WhoIsMaxPelzner</span>
+                </div>
+              </div>
+              <div class="tweet-content">
+                'Ask <span class="tweet">@GaryVee</span>' 🤖 is on <span class="tweet">@ProductHunt!</span> <br>
+                <span class="tweet">cards.twitter.com/cards/18ce53yr</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
